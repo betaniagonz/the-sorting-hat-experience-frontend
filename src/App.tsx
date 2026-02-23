@@ -1,5 +1,6 @@
 import { ErrorBoundary } from 'solid-js'
 import { Router, Route } from '@solidjs/router'
+import { Layout } from './components/Layout'
 import { Landing } from './pages/Landing'
 import { SortingTest } from './pages/SortingTest'
 import { SortingResult } from './pages/SortingResult'
@@ -20,7 +21,7 @@ function App() {
         </div>
       )}
     >
-      <Router>
+      <Router root={Layout}>
         <Route path="/" component={Landing} />
         <Route path="/test" component={SortingTest} />
         <Route path="/result" component={SortingResult} />
