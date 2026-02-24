@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer class="flex-shrink-0 py-4 px-6 text-center bg-[#2c1810] text-[#f4e4bc]">
+    <footer class="absolute w-full bottom-0 py-4 px-6 text-center bg-[#2c1810] text-[#f4e4bc]">
       <p class="font-dancing text-sm">
         Creado por{' '}
         <a
